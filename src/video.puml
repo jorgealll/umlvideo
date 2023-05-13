@@ -18,4 +18,3 @@ empleado -- (cancelar pedido)
 (cancelar pedido) .> (buscar pedido) : incluye
 
 @enduml
- <--  -->
