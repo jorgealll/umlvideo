@@ -1,0 +1,11 @@
+En primer lugar en el video se nos indican los casos de uso y nos da a conocer elementos como la notacion,el actor,la comunicacion o el entorno del sistema.
+lo segundo que se nos plantea es el uso de plantillas de descripcion en las cuales nos dice que cada caso de uso se describe utilizando plantillas que estan en lenguaje natural.
+en el apartado anterior tambien nos hablan del flujo de enventos
+tambien se nos menciona que para mas expresividad se pueden especificar relaciones entre los casos de uso como inclusion extension o herencia o relaciones entre actores como la propia herencia
+a continuacion nos cuenta sobre relaciones entre Casos de Uso - Inclusión
+Un caso de uso A incluye a un caso de uso B, si una instancia de A puede realizar todos los eventos que aparecen descritos en B
+luego de la explicacion de la inclusion nos menciona las relaciones entre Casos de Uso - Extensión
+Un caso de uso B extiende a un caso de uso A, si en la descripción de A figura una condición cuyo cumplimiento origina la ejecución de todos los eventos que aparecen descritos en B.
+seguido este ultimo apartado nos comparte informacion sobre la herencia que consiste en identificar un antecesor y un descendiente al menos que heredara los roles del antecesor
+y por ultimo nos menciona Diagrama de contexto y Diagrama inicial,Plantillas de Descripción y Diagrama Estructurado o Modelo de Casos de Uso 
+el diagrama de contexto viene a ser el que nos dice los limites del sistema software a desarrollar.
