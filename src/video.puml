@@ -1,11 +1,21 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-actor cliente_bancario
-actor cliente_corporativo as c2
-actor cliente_normal as c1
+actor empleado
 
-cliente_bancario <-- c2
-cliente_bancario <-- c1
+empleado -- (alta cliente)
+empleado -- (introducir pedido)
+empleado -- (obtener estado pedido)
+empleado -- (buscar pedido)
+empleado -- (cancelar pedido)
+
+(alta cliente) .> (introducir pedido) : extends
+(introducir pedido) .> (buscar cliente) : incluye
+(introducir pedido) <. (pago con tarjeta) : extiende
+(introducir pedido) <. (pago en cuenta) : extiende
+
+(obtener estado pedido) .> (buscar pedido) : incluye
+(cancelar pedido) .> (buscar pedido) : incluye
 
 @enduml
+ <--  -->
