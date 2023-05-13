@@ -1,8 +1,11 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-actor agente
-agente --> (evaluar solicitud credito)
-(evaluar solicitud credito)  <.. (solicitar informacion adicional al cliente) : extend si ingresos  < 1000
+actor cliente_bancario
+actor cliente_corporativo as c2
+actor cliente_normal as c1
+
+cliente_bancario <-- c2
+cliente_bancario <-- c1
 
 @enduml
