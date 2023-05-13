@@ -1,8 +1,8 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-actor bibliotecario
-bibliotecario --> (baja socio)
-(baja socio) ..> (buscar socio) : include
+actor agente
+agente --> (evaluar solicitud credito)
+(evaluar solicitud credito)  <.. (solicitar informacion adicional al cliente) : extend si ingresos  < 1000
 
 @enduml
