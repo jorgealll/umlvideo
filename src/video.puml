@@ -1,11 +1,8 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-autonumber
+actor bibliotecario
+bibliotecario --> (baja socio)
+(baja socio) ..> (buscar socio) : include
 
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
 @enduml
